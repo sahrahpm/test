@@ -1,0 +1,20 @@
+body {
+	margin: 50px;
+}
+
+.my-layout {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40px 200px 40px;
+}
+
+.my-layout > div{
+	border: #000 1px solid;
+}
+.header {
+	grid-column: 1 / 3;
+}
+
+.footer {
+	grid-column: 1 / 3;
+}
